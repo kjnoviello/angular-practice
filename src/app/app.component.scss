@@ -1,0 +1,45 @@
+:root {
+     --font-family: 'Roboto', sans-serif;
+};
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: steelblue;
+}
+header div{
+    display: inherit;
+    margin: 20px;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 50px;
+    width: 100%;
+    gap: 40px;
+}
+.div-list{
+    display: flex;
+    margin: 20px;
+}
+li {
+    list-style: none;
+    font-family: var(--font-family)
+}
+main{
+    margin-inline: 30px;
+};
+main div{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 350px;
+}
+button{
+    height: 30px;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    font-size: large;
+}
+h2{
+    font-family: var(--font-family)
+}
