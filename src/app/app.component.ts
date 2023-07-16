@@ -15,8 +15,6 @@ export class AppComponent {
     {nombre: "Apocalipsis Zombie", costo: "$ 444",},
     {nombre: "Dune", costo: "$ 412"},
     {nombre: "Neuromante", costo: "$ 271"},
-
-
   ];
 
   showList = true;
