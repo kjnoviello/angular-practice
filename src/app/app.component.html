@@ -1,16 +1,20 @@
-<header>
-  <div>
-    <h2>Tarea de Angular</h2>
-    <button (click)="toggle()">Hide / Show</button>
+<mat-toolbar>
+  <div class="toolbar-div">
+    <h1>Tarea de Angular</h1>
+    <div>
+      <span>Show</span>
+      <mat-slide-toggle (click)="toggle()" class="mat-slide-toggle"></mat-slide-toggle>
+      <span>Hide</span>
+    </div>
   </div>
-</header>
+</mat-toolbar>
 <main *ngIf="showList">
   <div class="div-list">
     <div class="container">
-      <h3>Nombre del libro</h3>
+      <h2>Nombre del libro</h2>
     </div>
     <div class="container">
-      <h3>Costo</h3>
+      <h2>Costo</h2>
     </div>
   </div>
   <div *ngFor=" let element of array" class="div-list">
@@ -22,3 +26,4 @@
     </div>
   </div>
 </main>
+<hr>
